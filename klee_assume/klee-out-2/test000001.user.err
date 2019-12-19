@@ -1,0 +1,6 @@
+Error: invalid klee_assume call (provably false)
+File: klee_assume.c
+Line: 8
+assembly.ll line: 21
+Stack: 
+	#000000021 in main () at klee_assume.c:8

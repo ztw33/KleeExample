@@ -1,0 +1,22 @@
+klee --write-smt2s query.bc
+PID: 21352
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2019-12-03 14:38:43
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2019-12-03 14:38:43
+Elapsed: 00:00:00
+KLEE: done: explored paths = 1
+KLEE: done: avg. constructs per query = 15
+KLEE: done: total queries = 2
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 2
+KLEE: done: query cex = 2
+
+KLEE: done: total instructions = 21
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

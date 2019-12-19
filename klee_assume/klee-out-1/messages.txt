@@ -1,0 +1,3 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: klee_assume.c:8: invalid klee_assume call (provably false)
+KLEE: NOTE: now ignoring this error at this location

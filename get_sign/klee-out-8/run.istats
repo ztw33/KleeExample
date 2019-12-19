@@ -1,0 +1,56 @@
+version: 1
+creator: klee
+pid: 22857
+cmd: query.bc
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: Itime : InstructionTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal Itime I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=/Users/zhutingwei/KleeExample/get_sign/klee-out-8/assembly.ll
+fl=/Users/zhutingwei/KleeExample/get_sign/query.c
+fn=main
+12 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+13 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+14 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+15 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+16 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=query.c
+17 9 1 0 0 0 1 0 0 0 0 0 0 0 0 
+18 9 1 0 0 0 1 0 0 0 0 0 0 0 0 
+19 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+20 11 1 0 0 0 1 0 0 0 0 0 0 0 0 
+21 11 1 0 0 0 1 0 0 0 0 0 0 0 0 
+22 12 1 0 0 0 1 0 0 0 0 0 0 0 0 
+23 12 1 0 0 0 1 0 0 0 0 0 0 0 0 
+24 13 1 0 0 0 1 0 0 0 0 0 0 0 0 
+25 13 1 0 0 0 1 0 0 0 0 0 0 0 0 
+26 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+27 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+28 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+29 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+30 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+31 14 1 0 0 0 1 0 0 0 0 1 1 0 1767 
+32 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+33 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+34 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+35 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+36 15 1 0 0 0 1 0 0 0 0 1 1 0 1739 
+37 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+38 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+39 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+40 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+41 16 1 0 0 0 1 0 0 0 0 1 1 0 2454 
+42 18 1 0 0 0 1 0 0 0 0 2 2 0 4605 

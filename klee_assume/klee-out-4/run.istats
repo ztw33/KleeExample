@@ -1,0 +1,53 @@
+version: 1
+creator: klee
+pid: 85083
+cmd: klee_assume.bc
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: Itime : InstructionTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal Itime I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=/Users/zhutingwei/KleeExample/klee_assume/klee-out-4/assembly.ll
+fl=/Users/zhutingwei/KleeExample/klee_assume/klee_assume.c
+fn=main
+11 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+12 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+13 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+14 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+15 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=klee_assume.c
+16 4 1 0 0 0 1 0 0 0 0 0 0 0 0 
+17 4 1 0 0 0 1 0 0 0 0 0 0 0 0 
+18 5 1 0 0 0 1 0 0 0 0 0 0 0 0 
+19 5 1 0 0 0 1 0 0 0 0 0 0 0 0 
+20 6 1 0 0 0 1 0 0 0 0 0 0 0 0 
+21 6 1 0 0 0 1 0 0 0 0 0 0 0 0 
+22 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+23 9 1 0 0 0 1 0 0 0 0 0 0 0 0 
+24 9 1 0 0 0 1 0 0 0 0 0 0 0 0 
+25 9 1 1 0 0 1 0 0 0 0 2 2 0 4826 
+28 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+29 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+30 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+31 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+32 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+35 12 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=/Users/zhutingwei/KleeExample/klee_assume/klee_assume.c
+36 3 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=klee_assume.c
+39 14 1 0 0 0 2 0 0 0 0 0 0 0 0 
+40 14 1 0 0 0 2 0 0 0 0 0 0 0 0 
+41 14 1 0 0 0 2 0 0 0 0 1 1 0 1818 
+42 16 1 0 0 0 1 0 0 0 0 0 0 0 0 

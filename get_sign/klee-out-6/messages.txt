@@ -1,0 +1,5 @@
+KLEE: Using STP solver backend
+KLEE: Logging queries that reach solver in .smt2 format to /Users/zhutingwei/KleeExample/get_sign/klee-out-6/solver-queries.smt2
+
+KLEE: Logging all queries in .smt2 format to /Users/zhutingwei/KleeExample/get_sign/klee-out-6/all-queries.smt2
+
